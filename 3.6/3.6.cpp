@@ -9,8 +9,8 @@ using namespace std;
 int main()
 {
     string s = "abcdefghijklmnopqrstuvwxyz";
-    for (int i=0;i<s.size();i++)
-        s[i] = 'X';
+    for (auto &c:s)
+        c = 'X';
     cout << s;
 }
 
