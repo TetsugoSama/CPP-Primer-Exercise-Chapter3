@@ -1,0 +1,1 @@
+不合法，ivec的元素数量为0，ivec[0]不存在。可以改为：ivec.push_back(42);
