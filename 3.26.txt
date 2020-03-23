@@ -1,0 +1,1 @@
+beg+(end-beg)/2的类型为迭代器，而(end-beg)/2的类型为int
